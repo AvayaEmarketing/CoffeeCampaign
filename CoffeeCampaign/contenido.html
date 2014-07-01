@@ -1,10 +1,191 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
+	<meta charset="UTF-8">
+    <title>Tómese un Tiempo</title>
+
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="assets/css/colorbox.css" />
+    <!-- end styles -->
 </head>
-<body>
-    <p>Contenido</p>
+<body class="zeroin">
+
+	<div class="row-fluid">
+		<div class="container logo">
+			<div class="span12"><img class="pull-right" src="assets/img/avayalogo.png" alt=""></div>
+		</div>
+	</div>
+
+<div class="container contbody">
+
+		<div class="row-fluid">
+			<div class="container">
+				<div class="span12 slider">
+					
+				<!-- carousel -->
+					<div class="row-fluid slider">
+						<section class="span12 sliderdemo">
+							<div id="myslide" class="carousel slide">
+
+								<ol class="carousel-indicators">
+				                    <li data-target="#myslide" data-slide-to="0" class="active"></li>
+				                    <li data-target="#myslide" data-slide-to="1"></li>
+				                    <li data-target="#myslide" data-slide-to="2"></li>
+				                    <li data-target="#myslide" data-slide-to="3"></li>
+				                    <li data-target="#myslide" data-slide-to="4"></li>
+				                </ol>
+
+								<div class="carousel-inner">
+
+									<div class="item active">
+										<div class="mecaption">
+											<h2><span class="bold">Avaya Aura<sup>®</sup> Conferencing</span> </br>
+											<span>Conferencia integrada en cualquier dispositivo</h2>
+										</div>
+										<img src="assets/img/slide01.jpg" alt="">
+									</div>
+
+									<div class="item">
+										<div class="mecaption">
+											<h2>Las salas de reunión virtual brindan experiencias reales de comunicación</h2>
+										</div>
+										<img src="assets/img/slide01.jpg" alt="">
+									</div>
+
+								</div>
+							</div>
+						</section>
+					</div>
+				<!-- carousel -->
+
+				</div>
+			</div>
+		</div>
+
+		<hr />
+
+	<div class="container">
+		<p class="cases"><i class="fa fa-comments-o redicon"></i> Casos de Éxito</p>	
+	</div>
+	<!-- casos de exito -->
+		<div class="row-fluid">
+			<div class="container">
+
+				<div class="span12">
+
+					<div class="span4">
+						<p class="casestitle">Sun Life Financial</p>
+						<article><a class='vimeo' href="http://player.vimeo.com/video/99371686" title="Avaya"><img src="assets/img/case01.png" alt=""></a></article>
+					</div>
+
+					<div class="span4">
+						<p class="casestitle">XCEL Energy Center y el equipo Minnesota Wild (NHL Draft)</p>
+						<article><a class='vimeo' href="http://player.vimeo.com/video/97939674" title="Avaya"><img src="assets/img/case02.png" alt=""></a></article>
+					</div>
+
+					<div class="span4">
+						<p class="casestitle">Caso de estudio de video Sun Life Financial</p>
+						<article><a class='vimeo' href="http://player.vimeo.com/video/97939674" title="Avaya"><img src="assets/img/case01.png" alt=""></a></article>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	<!-- end casos de exito -->
+
+	<hr />
+
+	<div class="row-fluid">
+		<div class="container textnormal">
+			<div class="span8 text">
+				<p>
+					<span class="light">El sistema apropiado y fácil de usar para su empresa</span></br></br>
+					Avaya ofrece una completa variedad de avanzados sistemas de video conferencia HD de sala. Nuestro sistemas Scopia® XT Video Conferencing incorporan las últimas tecnologías de video comunicaciones, incluyendo doble canales de video 1080p/60fps, H.264 de alto perfil para un ancho de banda eficiente, H.264 de video codificado escalable resiliente a error y control de dispositivo Apple iPad. 
+				</p>
+			</div>
+			<div class="span4 info"><img src="assets/img/videoinfo01.png" alt=""></div>
+		</div>
+	</div>
+
+
+	<hr />
+
+	<div class="row-fluid">
+		<div class="container textnormal">
+			<div class="span4 info">
+
+				<img src="assets/img/videoinfo02.png" alt="">
+				
+			</div>
+			<div class="span8 text"><p>
+					<span class="light">Video Conferencia todo en uno</span></br></br>
+					Scopia XT Meeting Center es un sistema premium HD de video conferencia de sala que integra pantallas sencillas o dobles de 55 pulgadas de 1080p en un carro especialmente diseñado para una implementación sencilla y eficiente. La movilidad del carro permite el uso del sistema como un recurso compartido y crear un espacio de video reunión de alta calidad sin requerimientos de instalación.  XT Meeting esta fortalecido con Avaya Scopia® XT5000 Room System con capacidades de video HD, intercambio de contenido y audio e incluye la opción de conferencias con múltiples participantes.
+				</p></div>
+		</div>
+	</div>
+
+
+</div>
+	
+
+	
+
+<!-- scripts -->
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/bootstrap-dialog.js"></script>
+	<script src="assets/js/modernizr.js"></script>
+	<script type='text/javascript'>
+	    $(function(){
+		$('.carousel').carousel({
+		      interval: 6000,
+		      pause: false
+		    });
+		$('.carousel-control.right').trigger('click');
+		});
+	</script>
+
+	<script src="assets/js/jquery.colorbox.js"></script>
+		<script>
+			$(document).ready(function(){
+				//Examples of how to assign the Colorbox event to elements
+				$(".group1").colorbox({rel:'group1'});
+				$(".group2").colorbox({rel:'group2', transition:"fade"});
+				$(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+				$(".group4").colorbox({rel:'group4', slideshow:true});
+				$(".ajax").colorbox();
+				$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+				$(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
+				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+				$(".inline").colorbox({inline:true, width:"50%"});
+				$(".callbacks").colorbox({
+					onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+					onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+					onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+					onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+					onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+				});
+
+				$('.non-retina').colorbox({rel:'group5', transition:'none'})
+				$('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+				
+				//Example of preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+			});
+		</script>
+	
+<!-- end scripts -->
+	
 </body>
 </html>
