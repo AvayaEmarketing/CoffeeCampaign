@@ -2,7 +2,6 @@
     font-family: 'proximanova-regular';
     src: url('fonts/proximanova-regular_0-webfont.eot');
     src: url('fonts/proximanova-regular_0-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/proximanova-regular_0-webfont.woff') format('woff'),
          url('fonts/proximanova-regular_0-webfont.ttf') format('truetype'),
          url('fonts/proximanova-regular_0-webfont.svg#webfontregular') format('svg');
     font-weight: normal;
@@ -14,7 +13,6 @@
     font-family: 'proximanova-lihgt';
     src: url('fonts/proximanova-light_0-webfont.eot');
     src: url('fonts/proximanova-light_0-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/proximanova-light_0-webfont.woff') format('woff'),
          url('fonts/proximanova-light_0-webfont.ttf') format('truetype'),
          url('fonts/proximanova-light_0-webfont.svg#webfontregular') format('svg');
     font-weight: normal;
@@ -26,7 +24,6 @@
     font-family: 'proxima_nova_rgbold';
     src: url('fonts/proximanova-bold_0-webfont.eot');
     src: url('fonts/proximanova-bold_0-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/proximanova-bold_0-webfont.woff') format('woff'),
          url('fonts/proximanova-bold_0-webfont.ttf') format('truetype'),
          url('fonts/proximanova-bold_0-webfont.svg#proxima_nova_rgbold') format('svg');
     font-weight: normal;
@@ -230,6 +227,14 @@ input[type="button"].btn-me:hover{
 
 .logo{
 	margin: 30px 0 10px 0;
+	background: #c00;
+	padding: 30px 0px;
+	position: relative;
+	top:10px;
+}
+
+.logo img{
+	padding-right: 20px;
 }
 
 .slider{
@@ -247,8 +252,7 @@ input[type="button"].btn-me:hover{
 	min-height: 60px;
 	background-color: #c00;
 	padding: 15px;
-	margin-left: 20px;
-	
+	margin-left: 80px;	
 }
 
 .mecaption h2{
@@ -264,11 +268,13 @@ input[type="button"].btn-me:hover{
 }
 
 .cases{
-	font-family: 'proxima_nova_rgbold';
-	font-size: 20px;
+	font-family: 'proximanova-lihgt';
+	font-size: 32px;
 	padding: 0;
-	margin: 30px 0;
-	color: #c00;
+	margin: 20px 0;
+	color: #666;
+	position: relative;
+	top: -15px;
 }
 
 .bold{
@@ -277,27 +283,43 @@ input[type="button"].btn-me:hover{
 
 .contbody{
 	background: #fff;
-	padding: 20px;
+	padding: 0px;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
-	margin: 20px 0;
+	margin: 0;
 }
 
 .redicon{
 	color: #c00;
-	font-size: 28px;
+	font-size: 32px;
 }
 
-.casestitle{
-
-	
+.casestitle{	
 	font-size: 14px;
 	color: #666;
-
 }
 
-.span4 img{
-	width: 100%;
+.span4{
+	
+}
+
+
+.casescont .span4 img{
+	width: 90%;
+	opacity: 0.7;
+	-moz-transition: all 300ms ease-in;
+    -ms-transition: all 300ms ease-in;
+    -o-transition: all 300ms ease-in;
+    transition: all 300ms ease-in;
+}
+
+.casescont .span4 img:hover{
+	padding-top: 10px;
+	opacity: 1;
+	-moz-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
 }
 
 .textnormal{
@@ -305,6 +327,7 @@ input[type="button"].btn-me:hover{
 	line-height: 19px;
 	margin: 10px 0;
 }
+
 .text{
 	padding: 60px;
 }
@@ -316,5 +339,158 @@ input[type="button"].btn-me:hover{
 .light{
 	font-size: 26px;
 	font-family: 'proximanova-lihgt';
+}
+
+
+.casescont{
+	padding: 18px;
+}
+
+.casetitlecont{
+	padding: 15px;
+}
+
+.textcolor01{
+	width: 100%;
+	height:200px;
+	margin: 20px 0;
+	background: url(../img/textcolor01.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 70%;
+	background-repeat: no-repeat;
+}
+
+.textcolor01 p{
+	text-align: center;
+	padding:0;
+	line-height: 200px;
+	color: #fff;
+	font-size: 40px;
+	font-family: 'proximanova-lihgt';
+	text-shadow:3px 3px 5px #333;
+}
+
+.btni{
+	position: relative;
+	left: 50px;
+	background: #c00;
+}
+
+.carousel-control {
+  top:50%;
+  width:auto;
+  height:1em;
+  background:transparent;
+}
+
+.campcont{
+	padding: 0px;
+	background: #fff;
+	height: 150px;
+	overflow: hidden;
+
 
 }
+.firstcamp{
+	width: 100%;
+	height: 300px;
+	position: relative;
+	top: 0;
+	-moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+    
+}
+
+.textcamp{
+	width: 100%;
+	height: 150px;
+	background-color: #fff;
+	font-family: 'proxima_nova_rgbold';
+	font-size: 30px;
+	text-align: center;
+	line-height: 30px;
+	padding-top: 50px;
+	
+}
+
+.linkcamp{
+	width: 100%;
+	height: 150px;
+	background-color: #c00;
+	color: #fff;
+	font-family: 'proxima_nova_rgbold';
+	font-size: 30px;
+	text-align: center;
+	line-height: 33px;
+	padding-top: 50px;
+	
+}
+
+.linkcamp a{
+	color: #fff;
+	text-decoration: underline;
+}
+
+.linkcamp a:hover{
+	color: #fff;
+	-moz-transition: all 100ms ease-out;
+    -ms-transition: all 100ms ease-out;
+    -o-transition: all 100ms ease-out;
+    transition: all 100ms ease-out;
+}
+
+.contact{
+	height: 200px;
+}
+
+.campdown{
+	top: -220px;
+}
+
+.camptop{
+	top: 200px;
+}
+
+.campcont .span4:first-child{
+	border-right: 1px solid #c00;
+}
+
+.campcont .span4:last-child{
+	border-left: 1px solid #666;
+	padding-left: 25px;
+	padding-top: 10px;
+	font-size: 16px;
+}
+
+.campcont .span4:last-child a{
+	color: #c00;
+}
+
+.icondown{
+	color: #c00;
+	font-size: 40px;
+}
+
+.footer{
+	width: 100%;
+	height: 80px;
+	background: #666;
+	color: #ccc;
+	padding: 25px 20px;
+	line-height: 14px;
+	text-align: right;
+}
+
+.footer a{
+	color: #ccc;
+	text-decoration: underline;
+	padding-right: 5px;
+}
+
+.footer a:hover{
+	color: #fff;
+}
+

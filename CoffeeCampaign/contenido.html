@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="assets/css/bootstrap-responsive.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/font-awesome.css">
-
     <link rel="stylesheet" href="assets/css/colorbox.css" />
     <!-- end styles -->
+
 </head>
 <body class="zeroin">
 
@@ -39,8 +39,7 @@
 				                    <li data-target="#myslide" data-slide-to="0" class="active"></li>
 				                    <li data-target="#myslide" data-slide-to="1"></li>
 				                    <li data-target="#myslide" data-slide-to="2"></li>
-				                    <li data-target="#myslide" data-slide-to="3"></li>
-				                    <li data-target="#myslide" data-slide-to="4"></li>
+				                 
 				                </ol>
 
 								<div class="carousel-inner">
@@ -57,11 +56,30 @@
 										<div class="mecaption">
 											<h2>Las salas de reunión virtual brindan experiencias reales de comunicación</h2>
 										</div>
-										<img src="assets/img/slide01.jpg" alt="">
+										<img src="assets/img/slide02.jpg" alt="">
 									</div>
 
+									<div class="item">
+										<div class="mecaption">
+											<h2>Video conferencia diseñada para cualquier lugar</h2>
+										</div>
+										<img src="assets/img/slide03.jpg" alt="">
+									</div>
+
+
+
+									
+
+
+
 								</div>
+
+								<a href="#myslide" data-slide="prev" class="btni carousel-control left"><i class="fa fa-angle-left"></i></a>
+							<a href="#myslide" data-slide="next" class="carousel-control right"><i class="fa fa-angle-right"></i></a>
+								
 							</div>
+							
+
 						</section>
 					</div>
 				<!-- carousel -->
@@ -72,11 +90,11 @@
 
 		<hr />
 
-	<div class="container">
+	<div class="container casetitlecont">
 		<p class="cases"><i class="fa fa-comments-o redicon"></i> Casos de Éxito</p>	
 	</div>
 	<!-- casos de exito -->
-		<div class="row-fluid">
+		<div class="row-fluid casescont">
 			<div class="container">
 
 				<div class="span12">
@@ -103,6 +121,13 @@
 
 	<hr />
 
+
+	<div class="row-fluid">
+		<div class="span12 textcolor01"><p>La simplicidad incrementa el uso</p></div>
+	</div>
+
+
+	<!-- solutions -->
 	<div class="row-fluid">
 		<div class="container textnormal">
 			<div class="span8 text">
@@ -128,7 +153,60 @@
 			<div class="span8 text"><p>
 					<span class="light">Video Conferencia todo en uno</span></br></br>
 					Scopia XT Meeting Center es un sistema premium HD de video conferencia de sala que integra pantallas sencillas o dobles de 55 pulgadas de 1080p en un carro especialmente diseñado para una implementación sencilla y eficiente. La movilidad del carro permite el uso del sistema como un recurso compartido y crear un espacio de video reunión de alta calidad sin requerimientos de instalación.  XT Meeting esta fortalecido con Avaya Scopia® XT5000 Room System con capacidades de video HD, intercambio de contenido y audio e incluye la opción de conferencias con múltiples participantes.
-				</p></div>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- end solutions -->
+<hr/>
+	<!-- campaign -->
+	<div class="row-fluid">
+		<div class="span12 campcont">
+			<div class="span4">
+				<div class="firstcamp">
+						<div class="textcamp">
+							Libere todo su potencial de colaboración <br/><i class="icondown fa fa-arrow-circle-down"></i>
+						</div>
+						<div class="linkcamp">
+							<a href="http://www4.avaya.com/cala/campaigns/avaya-lync-integration/index.html" target="_blank">
+								Usando la nueva integración 
+								de <br/>Avaya y Ms Lync
+							</a>
+						</div>
+				</div>
+			</div>
+
+			
+			<div class="span4">
+				<div class="firstcamp">
+						<div class="textcamp">
+							Movilidad Empresarial de Avaya <br/><i class="icondown fa fa-arrow-circle-down"></i>
+						</div>
+						<div class="linkcamp">
+							<a href="https://www4.avaya.com/cala/campaigns/enterprise-mobility/register.aspx" target="_blank">
+								Una solución de colaboración segura y eficiente
+							</a>
+						</div>
+				</div>
+			</div>
+
+			<div class="span4 contact">
+				<h3><span class="bold">Obtenga más información</span></h3>
+				<p><a href="mailto:email@avaya.com"><i class="fa fa-envelope"></i> Envienos un mensaje</a></p>
+				<p><i class="fa fa-phone"></i> Llamenos a 0800 222 28292</p>
+
+			</div>
+		</div>
+	</div>
+	<!-- end campaign -->
+	<hr/>
+
+	<div class="row-fluid">
+		<div class="span12 footer">
+			<p>© 2014 Avaya Inc. Todos los derechos reservados. <br/>
+			<a href="http://www.avaya.com/gcm/cala/en-us/includedcontent/termsofuse.htm" target="_blank">Terminos de Uso</a>  <a href="http://www.avaya.com/gcm/cala/en-us/includedcontent/privacy.htm" target="_blank">Declaración de Privacidad</a> <a href="http://www.avaya.com/gcm/cala/en-us/includedcontent/cookiepolicy.htm" target="_blank">Cookies</a>
+			</p>
 		</div>
 	</div>
 
@@ -140,13 +218,14 @@
 
 <!-- scripts -->
 	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/script.js"></script>
 	<script src="assets/js/bootstrap.js"></script>
-    <script src="assets/js/bootstrap-dialog.js"></script>
 	<script src="assets/js/modernizr.js"></script>
+    <script src="assets/js/bootstrap-dialog.js"></script>
 	<script type='text/javascript'>
 	    $(function(){
 		$('.carousel').carousel({
-		      interval: 6000,
+		      interval: 4000,
 		      pause: false
 		    });
 		$('.carousel-control.right').trigger('click');
