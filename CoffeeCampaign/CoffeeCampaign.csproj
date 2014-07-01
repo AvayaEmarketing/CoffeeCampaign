@@ -57,12 +57,38 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\css\bootstrap-dialog.css" />
+    <Content Include="assets\css\bootstrap-responsive.css" />
+    <Content Include="assets\css\bootstrap.css" />
+    <Content Include="assets\css\colorbox.css" />
+    <Content Include="assets\css\font-awesome.css" />
+    <Content Include="assets\css\font-awesome.min.css" />
+    <Content Include="assets\css\jquery.fancybox.css" />
+    <Content Include="assets\css\normalize.css" />
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\img\avayalogo.png" />
+    <Content Include="assets\img\card.png" />
+    <Content Include="assets\img\case01.png" />
+    <Content Include="assets\img\case02.png" />
+    <Content Include="assets\img\controls.png" />
+    <Content Include="assets\img\cover.jpg" />
+    <Content Include="assets\img\cover02.jpg" />
+    <Content Include="assets\img\example.jpg" />
+    <Content Include="assets\img\example.png" />
+    <Content Include="assets\img\favicon.ico" />
+    <Content Include="assets\img\loading.gif" />
+    <Content Include="assets\img\slide01.jpg" />
+    <Content Include="assets\img\slide01.png" />
+    <Content Include="assets\img\videoinfo01.png" />
+    <Content Include="assets\img\videoinfo02.png" />
     <Content Include="assets\js\angular.min.js" />
     <Content Include="assets\js\bootstrap-dialog.js" />
     <Content Include="assets\js\bootstrap.js" />
     <Content Include="assets\js\froogaloop.js" />
+    <Content Include="assets\js\functions.js" />
     <Content Include="assets\js\jquery.js" />
     <Content Include="assets\js\pages\index.js" />
+    <Content Include="assets\js\pages\welcome.js" />
     <Content Include="assets\js\videoControl.js" />
     <Content Include="contenido.html" />
     <Content Include="index.aspx" />
@@ -96,10 +122,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="assets\css\" />
-    <Folder Include="assets\img\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-dialog.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <!--<link rel="stylesheet" href="assets/css/font-awesome.css.css"> -->
     <!-- end styles -->
@@ -44,6 +45,7 @@
     <script src="assets/js/angular.min.js"></script>
     <script src="assets/js/bootstrap.js"></script>
     <script src="assets/js/bootstrap-dialog.js"></script>
+    <script src="assets/js/functions.js"></script>
     <script src="assets/js/pages/index.js"></script>
     <script src="assets/js/modernizr.js"></script>
     <!-- end scripts -->

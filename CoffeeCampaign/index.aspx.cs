@@ -47,8 +47,11 @@ using System.Text;
                 string telefono = test[3];
                 string cargo = test[4];
 
+
                 if (code == codigo)
                 {
+                    var sessionUsuario = HttpContext.Current.Session;
+                    sessionUsuario["usuario"] = usuario;
                     result = sendMails(usuario,empresa,telefono,cargo);
 
                 }
@@ -157,7 +160,7 @@ using System.Text;
         {
             string fullPath = HttpContext.Current.Server.MapPath("~");
             string html = "";
-            html = File.ReadAllText(fullPath + "template_mail.html");
+            html = File.ReadAllText(fullPath + "cala\\comms\\coffee-camp\\template_mail.html");
             //html = File.ReadAllText(fullPath + "CoffeeCampaign\\template_mail.html");
             return html;
         }
